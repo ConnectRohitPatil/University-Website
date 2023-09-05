@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Dots', 'cursive';
+}
+.header{
+    min-height:100vh ;
+    width: 100%;
+    background-image: linear-gradient(rgba(15, 28, 81, 0.7),rgba(41, 64, 155, 0.7)),url(college.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+}
+
+    nav{
+       display: flex; 
+       padding: 2% 6%;
+       justify-content: space-between;
+       align-items: center;
+
+    }
+    #logoid{
+        width: 80px;
+        margin: left 60px;
+        align-items:;
+    }
+    .navlinks{
+        flex: 1;
+        text-align: right ;
+    } 
+    .navlinks ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .navlinks ul li a{
+        color:white ;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .navlinks ul li::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    } 
+    .navlinks ul li:hover::after{
+        width: 100%;
+    }
+    .textbox{
+        width:90%;
+        color: white;
+        position:absolute ;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+    }
+    .textbox h1{
+       
+        font: size 62px;
+
+
+    }
+    .textbox p{
+        margin-top: 10px 0 40px;
+        font-size: 15px;
+        color: white;
+    }
+    .herebutton{
+        display:inline-block ;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    .herebutton:hover{
+        border: 1px solid #f44336;
+        background: #f44336 ;
+        transition: 1s;
+
+    }
+    /* sectioction course */
+    .course{
+        width:80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    h1{
+        font-size: 34px;
+        font-weight: 600;
+
+    }    
+    p{
+        color: #777;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+
+
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .coursecol{
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        margin: 20px 12px;
+        box-sizing: border-box;
+        transition:0.5 ;
+    }
+    h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .coursecol:hover{
+        box-shadow:0 0 20px 0px rgba(0,0,0,0.2) ;
+    }
+     /*Campus sectiomn  */
+    .campus{
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .campuscol{
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .campuscol img{
+        width:100%
+        
+
+
+    }
+    .layer{
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+
+    }
+    .layer:hover{
+        background: rgba(226,0,0,0.7);
+    }
+    .layer h3{
+        width: 100%;
+        font-weight: 500;
+        color: white;
+        font-size: 26px;
+        bottom: 0;
+        left: 50%;
+       transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .layer:hover h3{
+        bottom: 49%;
+        opacity: 1;
+
+
+    }
+    /* Facilities */
+    .Facilities{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .facilitiescol{
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+
+    }
+    .facilitiescol img{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    .facilitiescol p{
+        padding:0;
+
+    }
+    .facilitiescol h3{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: left;
+
+    }
+    /* TestiMonials */
+    
+    .Testimonials{
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .tesimonialscol{
+        flex-basis: 42% ;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        background:#ead5d5 ;
+        padding: 25px;
+        cursor: pointer;
+        display: flex;
+
+
+    }
+    .tesimonialscol img{
+        height: 40px;
+        margin-left: 5px;
+        margin-right: 30px;
+        border-radius: 50%;
+
+
+    }
+    .tesimonialscol p{
+        padding: 0;
+    }
+    .tesimonialscol h3{
+        margin-top: 15px;
+        text-align: left;
+
+
+    }
+
+
+
+
+
